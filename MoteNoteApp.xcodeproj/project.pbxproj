@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		796B000B296CF7EF0097E63E /* MoteNoteAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B000A296CF7EF0097E63E /* MoteNoteAppApp.swift */; };
+		796B000D296CF7EF0097E63E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B000C296CF7EF0097E63E /* ContentView.swift */; };
+		796B000F296CF7F20097E63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796B000E296CF7F20097E63E /* Assets.xcassets */; };
+		796B0012296CF7F20097E63E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796B0011296CF7F20097E63E /* Preview Assets.xcassets */; };
+		796B001C296CF7F20097E63E /* MoteNoteAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B001B296CF7F20097E63E /* MoteNoteAppTests.swift */; };
+		796B0026296CF7F20097E63E /* MoteNoteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B0025296CF7F20097E63E /* MoteNoteAppUITests.swift */; };
+		796B0028296CF7F20097E63E /* MoteNoteAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B0027296CF7F20097E63E /* MoteNoteAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		796B0018296CF7F20097E63E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796BFFFF296CF7EF0097E63E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796B0006296CF7EF0097E63E;
+			remoteInfo = MoteNoteApp;
+		};
+		796B0022296CF7F20097E63E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796BFFFF296CF7EF0097E63E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796B0006296CF7EF0097E63E;
+			remoteInfo = MoteNoteApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		796B0007296CF7EF0097E63E /* MoteNoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoteNoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		796B000A296CF7EF0097E63E /* MoteNoteAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoteNoteAppApp.swift; sourceTree = "<group>"; };
+		796B000C296CF7EF0097E63E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		796B000E296CF7F20097E63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		796B0011296CF7F20097E63E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		796B0017296CF7F20097E63E /* MoteNoteAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoteNoteAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		796B001B296CF7F20097E63E /* MoteNoteAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoteNoteAppTests.swift; sourceTree = "<group>"; };
+		796B0021296CF7F20097E63E /* MoteNoteAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoteNoteAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		796B0025296CF7F20097E63E /* MoteNoteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoteNoteAppUITests.swift; sourceTree = "<group>"; };
+		796B0027296CF7F20097E63E /* MoteNoteAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoteNoteAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		796B0004296CF7EF0097E63E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B0014296CF7F20097E63E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B001E296CF7F20097E63E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		796B0008296CF7EF0097E63E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796B0007296CF7EF0097E63E /* MoteNoteApp.app */,
+				796B0017296CF7F20097E63E /* MoteNoteAppTests.xctest */,
+				796B0021296CF7F20097E63E /* MoteNoteAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796B0009296CF7EF0097E63E /* MoteNoteApp */ = {
+			isa = PBXGroup;
+			children = (
+				796B000A296CF7EF0097E63E /* MoteNoteAppApp.swift */,
+				796B000C296CF7EF0097E63E /* ContentView.swift */,
+				796B000E296CF7F20097E63E /* Assets.xcassets */,
+				796B0010296CF7F20097E63E /* Preview Content */,
+			);
+			path = MoteNoteApp;
+			sourceTree = "<group>";
+		};
+		796B0010296CF7F20097E63E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				796B0011296CF7F20097E63E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		796B001A296CF7F20097E63E /* MoteNoteAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				796B001B296CF7F20097E63E /* MoteNoteAppTests.swift */,
+			);
+			path = MoteNoteAppTests;
+			sourceTree = "<group>";
+		};
+		796B0024296CF7F20097E63E /* MoteNoteAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				796B0025296CF7F20097E63E /* MoteNoteAppUITests.swift */,
+				796B0027296CF7F20097E63E /* MoteNoteAppUITestsLaunchTests.swift */,
+			);
+			path = MoteNoteAppUITests;
+			sourceTree = "<group>";
+		};
+		796BFFFE296CF7EF0097E63E = {
+			isa = PBXGroup;
+			children = (
+				796B0009296CF7EF0097E63E /* MoteNoteApp */,
+				796B001A296CF7F20097E63E /* MoteNoteAppTests */,
+				796B0024296CF7F20097E63E /* MoteNoteAppUITests */,
+				796B0008296CF7EF0097E63E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796B0006296CF7EF0097E63E /* MoteNoteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796B002B296CF7F20097E63E /* Build configuration list for PBXNativeTarget "MoteNoteApp" */;
+			buildPhases = (
+				796B0003296CF7EF0097E63E /* Sources */,
+				796B0004296CF7EF0097E63E /* Frameworks */,
+				796B0005296CF7EF0097E63E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoteNoteApp;
+			productName = MoteNoteApp;
+			productReference = 796B0007296CF7EF0097E63E /* MoteNoteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		796B0016296CF7F20097E63E /* MoteNoteAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796B002E296CF7F20097E63E /* Build configuration list for PBXNativeTarget "MoteNoteAppTests" */;
+			buildPhases = (
+				796B0013296CF7F20097E63E /* Sources */,
+				796B0014296CF7F20097E63E /* Frameworks */,
+				796B0015296CF7F20097E63E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796B0019296CF7F20097E63E /* PBXTargetDependency */,
+			);
+			name = MoteNoteAppTests;
+			productName = MoteNoteAppTests;
+			productReference = 796B0017296CF7F20097E63E /* MoteNoteAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		796B0020296CF7F20097E63E /* MoteNoteAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796B0031296CF7F20097E63E /* Build configuration list for PBXNativeTarget "MoteNoteAppUITests" */;
+			buildPhases = (
+				796B001D296CF7F20097E63E /* Sources */,
+				796B001E296CF7F20097E63E /* Frameworks */,
+				796B001F296CF7F20097E63E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796B0023296CF7F20097E63E /* PBXTargetDependency */,
+			);
+			name = MoteNoteAppUITests;
+			productName = MoteNoteAppUITests;
+			productReference = 796B0021296CF7F20097E63E /* MoteNoteAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		796BFFFF296CF7EF0097E63E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					796B0006296CF7EF0097E63E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					796B0016296CF7F20097E63E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 796B0006296CF7EF0097E63E;
+					};
+					796B0020296CF7F20097E63E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 796B0006296CF7EF0097E63E;
+					};
+				};
+			};
+			buildConfigurationList = 796B0002296CF7EF0097E63E /* Build configuration list for PBXProject "MoteNoteApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 796BFFFE296CF7EF0097E63E;
+			productRefGroup = 796B0008296CF7EF0097E63E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796B0006296CF7EF0097E63E /* MoteNoteApp */,
+				796B0016296CF7F20097E63E /* MoteNoteAppTests */,
+				796B0020296CF7F20097E63E /* MoteNoteAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		796B0005296CF7EF0097E63E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B0012296CF7F20097E63E /* Preview Assets.xcassets in Resources */,
+				796B000F296CF7F20097E63E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B0015296CF7F20097E63E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B001F296CF7F20097E63E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		796B0003296CF7EF0097E63E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B000D296CF7EF0097E63E /* ContentView.swift in Sources */,
+				796B000B296CF7EF0097E63E /* MoteNoteAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B0013296CF7F20097E63E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B001C296CF7F20097E63E /* MoteNoteAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B001D296CF7F20097E63E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B0026296CF7F20097E63E /* MoteNoteAppUITests.swift in Sources */,
+				796B0028296CF7F20097E63E /* MoteNoteAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		796B0019296CF7F20097E63E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796B0006296CF7EF0097E63E /* MoteNoteApp */;
+			targetProxy = 796B0018296CF7F20097E63E /* PBXContainerItemProxy */;
+		};
+		796B0023296CF7F20097E63E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796B0006296CF7EF0097E63E /* MoteNoteApp */;
+			targetProxy = 796B0022296CF7F20097E63E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		796B0029296CF7F20097E63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		796B002A296CF7F20097E63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		796B002C296CF7F20097E63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoteNoteApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = firstApp.MoteNoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		796B002D296CF7F20097E63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoteNoteApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = firstApp.MoteNoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		796B002F296CF7F20097E63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = firstApp.MoteNoteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoteNoteApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoteNoteApp";
+			};
+			name = Debug;
+		};
+		796B0030296CF7F20097E63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = firstApp.MoteNoteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoteNoteApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoteNoteApp";
+			};
+			name = Release;
+		};
+		796B0032296CF7F20097E63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = firstApp.MoteNoteAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoteNoteApp;
+			};
+			name = Debug;
+		};
+		796B0033296CF7F20097E63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = firstApp.MoteNoteAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoteNoteApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796B0002296CF7EF0097E63E /* Build configuration list for PBXProject "MoteNoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B0029296CF7F20097E63E /* Debug */,
+				796B002A296CF7F20097E63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796B002B296CF7F20097E63E /* Build configuration list for PBXNativeTarget "MoteNoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B002C296CF7F20097E63E /* Debug */,
+				796B002D296CF7F20097E63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796B002E296CF7F20097E63E /* Build configuration list for PBXNativeTarget "MoteNoteAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B002F296CF7F20097E63E /* Debug */,
+				796B0030296CF7F20097E63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796B0031296CF7F20097E63E /* Build configuration list for PBXNativeTarget "MoteNoteAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B0032296CF7F20097E63E /* Debug */,
+				796B0033296CF7F20097E63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 796BFFFF296CF7EF0097E63E /* Project object */;
+}
