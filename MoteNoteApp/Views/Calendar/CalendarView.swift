@@ -61,7 +61,7 @@ struct CalendarView: View {
         }
         .sheet(isPresented: showingTaskList) {
             DailyCalendarView(selectedDate: $selectedDate, coordinator: coordinator)
-//            TaskList(selectedDate: $selectedDate, tasks: coordinator.tasks.filter { Calendar.current.isDate($0.date, inSameDayAs: selectedDate!) })
+
         }
         .toolbar {
             HStack {

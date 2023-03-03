@@ -9,10 +9,11 @@ import SwiftUI
 
 struct DailySnapshot: View {
     
-    var tasks: [Task]
+    @EnvironmentObject var taskStore: TaskStore
+    let date: Date
     
     var snapshotScreenWidth = 0.9
-    let date = Date()
+
     
     
     let calendar = Calendar.current
@@ -35,8 +36,9 @@ struct DailySnapshot: View {
                     DailySnapShotSmallTick(screenWidth: screenWidth, screenHeight: screenHeight, snapshotScreenWidth: snapshotScreenWidth)
 
 
+                    let todaysTasks = taskStore.tasks.filter { Calendar.current.isDate($0.date, inSameDayAs: date) }
                 
-                        ForEach(tasks) { task in
+                    ForEach(todaysTasks) { task in
                             
                             DailySnapshitColoredTaskView(task: task, screenWidth: screenWidth, screenHeight: screenHeight, snapshotScreenWidth: snapshotScreenWidth)
                             
@@ -178,22 +180,22 @@ struct DailySnapShotSmallTick: View {
 
 
 
-struct DailySnapshot_Previews: PreviewProvider {
-    static var previews: some View {
-//        let date = Date() // Current date
-//        let calendar = Calendar.current
-//        let hoursToAdd = 2
-//        let newDate1 = calendar.date(byAdding: .hour, value: hoursToAdd, to: date)
-//        let newDate2 = calendar.date(byAdding: .hour, value: hoursToAdd+1, to: date)
-//        let newDate3 = calendar.date(byAdding: .hour, value: hoursToAdd+3, to: date)
-//        let newDate4 = calendar.date(byAdding: .hour, value: hoursToAdd+4, to: date)
-        let noonToday = Calendar.current.date(bySettingHour: 12, minute: 0, second: 0, of: Date())!
-        DailySnapshot(
-            tasks: [
-                Task(date: Date(), timeRange: (start: noonToday, end: noonToday.addingTimeInterval(60 * 60 * 3)), name: "Math Class", description: "Attend Ms. Wagner's math class at rom 102", travelTime: 600, checklist: ["Backpack", "Calculator"], taskType: TaskType(name: "School", color: Color("MattePurple"))),
-                Task(date: Date(), timeRange: (start: noonToday.addingTimeInterval(-60 * 60 * 12), end: noonToday.addingTimeInterval(-60 * 60 * 11)), name: "Work", description: "Make the App", travelTime: 300, checklist: ["Backpack", "Calculator"], taskType: TaskType(name: "Work", color: Color("MatteAqua"))),
-                Task(date: Date(), timeRange: (start: noonToday.addingTimeInterval(60 * 60 * 11), end: noonToday.addingTimeInterval(60 * 60 * 12)), name: "Build App", description: "Make the App", travelTime: 300, checklist: ["Backpack", "Calculator"], taskType: TaskType(name: "Work", color: Color("MatteAqua")))
-            ]
-        )
-    }
-}
+//struct DailySnapshot_Previews: PreviewProvider {
+//    static var previews: some View {
+////        let date = Date() // Current date
+////        let calendar = Calendar.current
+////        let hoursToAdd = 2
+////        let newDate1 = calendar.date(byAdding: .hour, value: hoursToAdd, to: date)
+////        let newDate2 = calendar.date(byAdding: .hour, value: hoursToAdd+1, to: date)
+////        let newDate3 = calendar.date(byAdding: .hour, value: hoursToAdd+3, to: date)
+////        let newDate4 = calendar.date(byAdding: .hour, value: hoursToAdd+4, to: date)
+//        let noonToday = Calendar.current.date(bySettingHour: 12, minute: 0, second: 0, of: Date())!
+//        DailySnapshot(
+//            tasks: [
+//                Task(date: Date(), timeRange: (start: noonToday, end: noonToday.addingTimeInterval(60 * 60 * 3)), name: "Math Class", description: "Attend Ms. Wagner's math class at rom 102", travelTime: 600, checklist: ["Backpack", "Calculator"], taskType: TaskType(name: "School", color: Color("MattePurple"))),
+//                Task(date: Date(), timeRange: (start: noonToday.addingTimeInterval(-60 * 60 * 12), end: noonToday.addingTimeInterval(-60 * 60 * 11)), name: "Work", description: "Make the App", travelTime: 300, checklist: ["Backpack", "Calculator"], taskType: TaskType(name: "Work", color: Color("MatteAqua"))),
+//                Task(date: Date(), timeRange: (start: noonToday.addingTimeInterval(60 * 60 * 11), end: noonToday.addingTimeInterval(60 * 60 * 12)), name: "Build App", description: "Make the App", travelTime: 300, checklist: ["Backpack", "Calculator"], taskType: TaskType(name: "Work", color: Color("MatteAqua")))
+//            ]
+//        )
+//    }
+//}

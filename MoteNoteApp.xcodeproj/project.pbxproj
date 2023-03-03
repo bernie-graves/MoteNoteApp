@@ -31,6 +31,7 @@
 		7974048A299C181B0086C051 /* PreLoadScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79740489299C181B0086C051 /* PreLoadScreen.swift */; };
 		7974048C299C238E0086C051 /* TaskTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7974048B299C238E0086C051 /* TaskTypeModel.swift */; };
 		7974048E299C38E90086C051 /* CustomPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7974048D299C38E90086C051 /* CustomPickers.swift */; };
+		799F813729B1B26E0080DB8A /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F813629B1B26D0080DB8A /* TaskStore.swift */; };
 		79AB02B7298B6AE600AFD0EF /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02B6298B6AE600AFD0EF /* ActivityModel.swift */; };
 		79AB02BA298B77E400AFD0EF /* WhatSetsYouOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02B9298B77E400AFD0EF /* WhatSetsYouOff.swift */; };
 		79AB02BD298B782200AFD0EF /* ThePowerOfIntention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02BC298B782200AFD0EF /* ThePowerOfIntention.swift */; };
@@ -121,6 +122,7 @@
 		79740489299C181B0086C051 /* PreLoadScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoadScreen.swift; sourceTree = "<group>"; };
 		7974048B299C238E0086C051 /* TaskTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTypeModel.swift; sourceTree = "<group>"; };
 		7974048D299C38E90086C051 /* CustomPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickers.swift; sourceTree = "<group>"; };
+		799F813629B1B26D0080DB8A /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 		79A488002985F88400D84414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		79AB02B6298B6AE600AFD0EF /* ActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
 		79AB02B9298B77E400AFD0EF /* WhatSetsYouOff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatSetsYouOff.swift; sourceTree = "<group>"; };
@@ -390,6 +392,7 @@
 				79AB02C9298CD4FD00AFD0EF /* TaskModel.swift */,
 				79AB02D0298CD76D00AFD0EF /* CalendarCoordinator.swift */,
 				7974048B299C238E0086C051 /* TaskTypeModel.swift */,
+				799F813629B1B26D0080DB8A /* TaskStore.swift */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -854,6 +857,7 @@
 				7952883B2975FD29005AC2AD /* PersonalRating.swift in Sources */,
 				79AED73E2999A120001B5AD0 /* AffirmationsView.swift in Sources */,
 				79C05679298245B100924DBB /* TodaysTasksHome.swift in Sources */,
+				799F813729B1B26E0080DB8A /* TaskStore.swift in Sources */,
 				79BEE12C296D2E3700CB7C5B /* ProfileSummary.swift in Sources */,
 				79AB02C3298B78A900AFD0EF /* PassionIsAGift.swift in Sources */,
 				7974048C299C238E0086C051 /* TaskTypeModel.swift in Sources */,

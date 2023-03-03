@@ -43,6 +43,7 @@ struct RootView_Previews: PreviewProvider {
             .environmentObject(ViewRouter())
             .environmentObject(ProfileViewModel())
             .environmentObject(VarkViewModel())
+            .environmentObject(TaskStore())
 
         
     }
