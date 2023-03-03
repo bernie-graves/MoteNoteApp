@@ -42,7 +42,7 @@ struct HomePage: View {
                             .fill(.blue)
                             .frame(width: 350, height: 150)
                         
-                        Text("Suggested Activities")
+                        Text("Suggested Activities -- Task Store")
                     }
                 }
 //                .onAppear {
