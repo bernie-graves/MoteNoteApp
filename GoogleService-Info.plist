@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1040937269036-do36vv6loq0gu5hit4ccigo2oes4u468.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1040937269036-do36vv6loq0gu5hit4ccigo2oes4u468</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDs7MQhp7RZ5OuFSZsBb7UUKxJyEsJnwPs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1040937269036</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>firstApp.MoteNoteApp</string>
+	<key>PROJECT_ID</key>
+	<string>motenoteapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>motenoteapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1040937269036:ios:e76334060bf6aaf6bcde89</string>
+</dict>
+</plist>

@@ -7,13 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61F3CE24D668B06CA646E27C /* Pods_MoteNoteAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27293E4EFD3D355B1A2DBBF0 /* Pods_MoteNoteAppTests.framework */; };
+		69FEAD5A411B074785DF48B9 /* Pods_MoteNoteApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E67C3B4CB213853929C12CAB /* Pods_MoteNoteApp.framework */; };
+		78EF55DC82566AF5CEDF6885 /* Pods_MoteNoteApp_MoteNoteAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8911D1D790AE8146A1EB8B34 /* Pods_MoteNoteApp_MoteNoteAppUITests.framework */; };
+		793DB17829873BBF0005A4D5 /* StarRatings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793DB17729873BBF0005A4D5 /* StarRatings.swift */; };
+		793DB17B29874CAF0005A4D5 /* SuggestedActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793DB17A29874CAF0005A4D5 /* SuggestedActivityView.swift */; };
+		79452D68297B6E6A00D22DE6 /* ProfileVarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79452D67297B6E6A00D22DE6 /* ProfileVarks.swift */; };
+		7952882F2975E0A6005AC2AD /* VarkAssessment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952882E2975E0A6005AC2AD /* VarkAssessment.swift */; };
+		795288312975E112005AC2AD /* VarkQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795288302975E112005AC2AD /* VarkQuestion.swift */; };
+		795288332975E2C6005AC2AD /* VarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795288322975E2C6005AC2AD /* VarkViewModel.swift */; };
+		795288362975EAA7005AC2AD /* VARKAssessment.json in Resources */ = {isa = PBXBuildFile; fileRef = 795288352975EAA7005AC2AD /* VARKAssessment.json */; };
+		7952883B2975FD29005AC2AD /* PersonalRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952883A2975FD29005AC2AD /* PersonalRating.swift */; };
+		7952883E29778375005AC2AD /* ToggleTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952883D29778375005AC2AD /* ToggleTheme.swift */; };
+		795288402977B957005AC2AD /* VarkResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952883F2977B957005AC2AD /* VarkResultsView.swift */; };
 		796B000B296CF7EF0097E63E /* MoteNoteAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B000A296CF7EF0097E63E /* MoteNoteAppApp.swift */; };
-		796B000D296CF7EF0097E63E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B000C296CF7EF0097E63E /* ContentView.swift */; };
 		796B000F296CF7F20097E63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796B000E296CF7F20097E63E /* Assets.xcassets */; };
 		796B0012296CF7F20097E63E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796B0011296CF7F20097E63E /* Preview Assets.xcassets */; };
 		796B001C296CF7F20097E63E /* MoteNoteAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B001B296CF7F20097E63E /* MoteNoteAppTests.swift */; };
 		796B0026296CF7F20097E63E /* MoteNoteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B0025296CF7F20097E63E /* MoteNoteAppUITests.swift */; };
 		796B0028296CF7F20097E63E /* MoteNoteAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B0027296CF7F20097E63E /* MoteNoteAppUITestsLaunchTests.swift */; };
+		7973B100299DE03C0007CD64 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7973B0FF299DE03C0007CD64 /* ColorExtension.swift */; };
+		7973B103299DEDE90007CD64 /* AddTaskTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7973B102299DEDE90007CD64 /* AddTaskTypeView.swift */; };
+		7974048A299C181B0086C051 /* PreLoadScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79740489299C181B0086C051 /* PreLoadScreen.swift */; };
+		7974048C299C238E0086C051 /* TaskTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7974048B299C238E0086C051 /* TaskTypeModel.swift */; };
+		7974048E299C38E90086C051 /* CustomPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7974048D299C38E90086C051 /* CustomPickers.swift */; };
+		79AB02B7298B6AE600AFD0EF /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02B6298B6AE600AFD0EF /* ActivityModel.swift */; };
+		79AB02BA298B77E400AFD0EF /* WhatSetsYouOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02B9298B77E400AFD0EF /* WhatSetsYouOff.swift */; };
+		79AB02BD298B782200AFD0EF /* ThePowerOfIntention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02BC298B782200AFD0EF /* ThePowerOfIntention.swift */; };
+		79AB02C0298B786000AFD0EF /* ThingsThatBrightenYourDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02BF298B786000AFD0EF /* ThingsThatBrightenYourDay.swift */; };
+		79AB02C3298B78A900AFD0EF /* PassionIsAGift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02C2298B78A900AFD0EF /* PassionIsAGift.swift */; };
+		79AB02C6298B790A00AFD0EF /* YourBucketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02C5298B790A00AFD0EF /* YourBucketList.swift */; };
+		79AB02C8298CCDFC00AFD0EF /* CalendarWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02C7298CCDFC00AFD0EF /* CalendarWrapper.swift */; };
+		79AB02CA298CD4FD00AFD0EF /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02C9298CD4FD00AFD0EF /* TaskModel.swift */; };
+		79AB02CE298CD71800AFD0EF /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02CD298CD71800AFD0EF /* AddTaskView.swift */; };
+		79AB02D1298CD76D00AFD0EF /* CalendarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02D0298CD76D00AFD0EF /* CalendarCoordinator.swift */; };
+		79AB02D3298CD7B900AFD0EF /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02D2298CD7B900AFD0EF /* TaskList.swift */; };
+		79AB02D5298CD9A400AFD0EF /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB02D4298CD9A400AFD0EF /* CalendarView.swift */; };
+		79AED72E29948F7A001B5AD0 /* LockedStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AED72D29948F7A001B5AD0 /* LockedStarView.swift */; };
+		79AED730299491EE001B5AD0 /* DailyCheckInCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AED72F299491EE001B5AD0 /* DailyCheckInCalendarView.swift */; };
+		79AED7342994B142001B5AD0 /* DailySnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AED7332994B142001B5AD0 /* DailySnapshot.swift */; };
+		79AED73729998C8B001B5AD0 /* FunFactFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AED73629998C8B001B5AD0 /* FunFactFetcher.swift */; };
+		79AED73929998D0E001B5AD0 /* FunFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AED73829998D0E001B5AD0 /* FunFactView.swift */; };
+		79AED73C2999A079001B5AD0 /* AffirmationsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AED73B2999A079001B5AD0 /* AffirmationsFetcher.swift */; };
+		79AED73E2999A120001B5AD0 /* AffirmationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AED73D2999A120001B5AD0 /* AffirmationsView.swift */; };
+		79B4450A29AF08900098D239 /* WeeklySnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B4450929AF08900098D239 /* WeeklySnapshot.swift */; };
+		79B8419D2982FC4100E87723 /* DailyCheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8419C2982FC4100E87723 /* DailyCheckIn.swift */; };
+		79B841A0298322A700E87723 /* CalendarMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8419F298322A600E87723 /* CalendarMainView.swift */; };
+		79B879322972426600C19602 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B879312972426600C19602 /* EditProfile.swift */; };
+		79B879342972428800C19602 /* EditProfileSelectHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B879332972428800C19602 /* EditProfileSelectHome.swift */; };
+		79BEE112296D249800CB7C5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79BEE111296D249800CB7C5B /* GoogleService-Info.plist */; };
+		79BEE115296D2E0400CB7C5B /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEE114296D2E0400CB7C5B /* ProfileViewModel.swift */; };
+		79BEE11A296D2E1C00CB7C5B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEE118296D2E1C00CB7C5B /* Profile.swift */; };
+		79BEE11B296D2E1C00CB7C5B /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEE119296D2E1C00CB7C5B /* ViewRouter.swift */; };
+		79BEE12A296D2E3700CB7C5B /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEE11E296D2E3700CB7C5B /* HomePage.swift */; };
+		79BEE12B296D2E3700CB7C5B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEE11F296D2E3700CB7C5B /* RootView.swift */; };
+		79BEE12C296D2E3700CB7C5B /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEE121296D2E3700CB7C5B /* ProfileSummary.swift */; };
+		79BEE12D296D2E3700CB7C5B /* ProfileHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEE122296D2E3700CB7C5B /* ProfileHome.swift */; };
+		79BEE12E296D2E3700CB7C5B /* ActivitiesHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEE124296D2E3700CB7C5B /* ActivitiesHome.swift */; };
+		79BEE12F296D2E3700CB7C5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEE126296D2E3700CB7C5B /* ContentView.swift */; };
+		79BEE130296D2E3700CB7C5B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEE128296D2E3700CB7C5B /* SignInView.swift */; };
+		79BEE131296D2E3700CB7C5B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEE129296D2E3700CB7C5B /* SignUpView.swift */; };
+		79C056752982114000924DBB /* HomeAccountSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C056742982114000924DBB /* HomeAccountSetup.swift */; };
+		79C056772982456D00924DBB /* DailyCheckInHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C056762982456C00924DBB /* DailyCheckInHome.swift */; };
+		79C05679298245B100924DBB /* TodaysTasksHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C05678298245B100924DBB /* TodaysTasksHome.swift */; };
+		79C74C2A2989C62700C1B6FD /* PreventingAFlood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C74C292989C62700C1B6FD /* PreventingAFlood.swift */; };
+		79C74C2E2989C90800C1B6FD /* DailyCheckInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C74C2D2989C90800C1B6FD /* DailyCheckInModel.swift */; };
+		79E7ED8929936966002E7CA7 /* DailyCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7ED8829936966002E7CA7 /* DailyCalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +93,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27293E4EFD3D355B1A2DBBF0 /* Pods_MoteNoteAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoteNoteAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A0C3A51F2ED6EC12E7E22D /* Pods-MoteNoteAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoteNoteAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MoteNoteAppTests/Pods-MoteNoteAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59608B9CC147A686E647555D /* Pods-MoteNoteAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoteNoteAppTests.release.xcconfig"; path = "Target Support Files/Pods-MoteNoteAppTests/Pods-MoteNoteAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		78877260D7F2F8572339DE92 /* Pods-MoteNoteApp-MoteNoteAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoteNoteApp-MoteNoteAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MoteNoteApp-MoteNoteAppUITests/Pods-MoteNoteApp-MoteNoteAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		793DB17729873BBF0005A4D5 /* StarRatings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatings.swift; sourceTree = "<group>"; };
+		793DB17A29874CAF0005A4D5 /* SuggestedActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedActivityView.swift; sourceTree = "<group>"; };
+		79452D67297B6E6A00D22DE6 /* ProfileVarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVarks.swift; sourceTree = "<group>"; };
+		7952882E2975E0A6005AC2AD /* VarkAssessment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarkAssessment.swift; sourceTree = "<group>"; };
+		795288302975E112005AC2AD /* VarkQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarkQuestion.swift; sourceTree = "<group>"; };
+		795288322975E2C6005AC2AD /* VarkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarkViewModel.swift; sourceTree = "<group>"; };
+		795288352975EAA7005AC2AD /* VARKAssessment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VARKAssessment.json; sourceTree = "<group>"; };
+		7952883A2975FD29005AC2AD /* PersonalRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalRating.swift; sourceTree = "<group>"; };
+		7952883D29778375005AC2AD /* ToggleTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTheme.swift; sourceTree = "<group>"; };
+		7952883F2977B957005AC2AD /* VarkResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarkResultsView.swift; sourceTree = "<group>"; };
 		796B0007296CF7EF0097E63E /* MoteNoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoteNoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		796B000A296CF7EF0097E63E /* MoteNoteAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoteNoteAppApp.swift; sourceTree = "<group>"; };
-		796B000C296CF7EF0097E63E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		796B000E296CF7F20097E63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		796B0011296CF7F20097E63E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		796B0017296CF7F20097E63E /* MoteNoteAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoteNoteAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +116,59 @@
 		796B0021296CF7F20097E63E /* MoteNoteAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoteNoteAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		796B0025296CF7F20097E63E /* MoteNoteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoteNoteAppUITests.swift; sourceTree = "<group>"; };
 		796B0027296CF7F20097E63E /* MoteNoteAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoteNoteAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7973B0FF299DE03C0007CD64 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		7973B102299DEDE90007CD64 /* AddTaskTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskTypeView.swift; sourceTree = "<group>"; };
+		79740489299C181B0086C051 /* PreLoadScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLoadScreen.swift; sourceTree = "<group>"; };
+		7974048B299C238E0086C051 /* TaskTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTypeModel.swift; sourceTree = "<group>"; };
+		7974048D299C38E90086C051 /* CustomPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickers.swift; sourceTree = "<group>"; };
+		79A488002985F88400D84414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		79AB02B6298B6AE600AFD0EF /* ActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
+		79AB02B9298B77E400AFD0EF /* WhatSetsYouOff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatSetsYouOff.swift; sourceTree = "<group>"; };
+		79AB02BC298B782200AFD0EF /* ThePowerOfIntention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePowerOfIntention.swift; sourceTree = "<group>"; };
+		79AB02BF298B786000AFD0EF /* ThingsThatBrightenYourDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsThatBrightenYourDay.swift; sourceTree = "<group>"; };
+		79AB02C2298B78A900AFD0EF /* PassionIsAGift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionIsAGift.swift; sourceTree = "<group>"; };
+		79AB02C5298B790A00AFD0EF /* YourBucketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourBucketList.swift; sourceTree = "<group>"; };
+		79AB02C7298CCDFC00AFD0EF /* CalendarWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWrapper.swift; sourceTree = "<group>"; };
+		79AB02C9298CD4FD00AFD0EF /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		79AB02CD298CD71800AFD0EF /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		79AB02D0298CD76D00AFD0EF /* CalendarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCoordinator.swift; sourceTree = "<group>"; };
+		79AB02D2298CD7B900AFD0EF /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		79AB02D4298CD9A400AFD0EF /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		79AED72D29948F7A001B5AD0 /* LockedStarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockedStarView.swift; sourceTree = "<group>"; };
+		79AED72F299491EE001B5AD0 /* DailyCheckInCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckInCalendarView.swift; sourceTree = "<group>"; };
+		79AED7332994B142001B5AD0 /* DailySnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySnapshot.swift; sourceTree = "<group>"; };
+		79AED73629998C8B001B5AD0 /* FunFactFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactFetcher.swift; sourceTree = "<group>"; };
+		79AED73829998D0E001B5AD0 /* FunFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactView.swift; sourceTree = "<group>"; };
+		79AED73B2999A079001B5AD0 /* AffirmationsFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsFetcher.swift; sourceTree = "<group>"; };
+		79AED73D2999A120001B5AD0 /* AffirmationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationsView.swift; sourceTree = "<group>"; };
+		79B4450929AF08900098D239 /* WeeklySnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySnapshot.swift; sourceTree = "<group>"; };
+		79B8419C2982FC4100E87723 /* DailyCheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckIn.swift; sourceTree = "<group>"; };
+		79B8419F298322A600E87723 /* CalendarMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarMainView.swift; sourceTree = "<group>"; };
+		79B879312972426600C19602 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		79B879332972428800C19602 /* EditProfileSelectHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileSelectHome.swift; sourceTree = "<group>"; };
+		79BEE111296D249800CB7C5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		79BEE114296D2E0400CB7C5B /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		79BEE118296D2E1C00CB7C5B /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		79BEE119296D2E1C00CB7C5B /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		79BEE11E296D2E3700CB7C5B /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		79BEE11F296D2E3700CB7C5B /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		79BEE121296D2E3700CB7C5B /* ProfileSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		79BEE122296D2E3700CB7C5B /* ProfileHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHome.swift; sourceTree = "<group>"; };
+		79BEE124296D2E3700CB7C5B /* ActivitiesHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesHome.swift; sourceTree = "<group>"; };
+		79BEE126296D2E3700CB7C5B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79BEE128296D2E3700CB7C5B /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		79BEE129296D2E3700CB7C5B /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		79C056742982114000924DBB /* HomeAccountSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAccountSetup.swift; sourceTree = "<group>"; };
+		79C056762982456C00924DBB /* DailyCheckInHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckInHome.swift; sourceTree = "<group>"; };
+		79C05678298245B100924DBB /* TodaysTasksHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysTasksHome.swift; sourceTree = "<group>"; };
+		79C74C292989C62700C1B6FD /* PreventingAFlood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreventingAFlood.swift; sourceTree = "<group>"; };
+		79C74C2D2989C90800C1B6FD /* DailyCheckInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckInModel.swift; sourceTree = "<group>"; };
+		79E7ED8829936966002E7CA7 /* DailyCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCalendarView.swift; sourceTree = "<group>"; };
+		8911D1D790AE8146A1EB8B34 /* Pods_MoteNoteApp_MoteNoteAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoteNoteApp_MoteNoteAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8C7E839DB7AA5DC5ABBBDF /* Pods-MoteNoteApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoteNoteApp.debug.xcconfig"; path = "Target Support Files/Pods-MoteNoteApp/Pods-MoteNoteApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E2074AA4C1296BCE02B5527B /* Pods-MoteNoteApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoteNoteApp.release.xcconfig"; path = "Target Support Files/Pods-MoteNoteApp/Pods-MoteNoteApp.release.xcconfig"; sourceTree = "<group>"; };
+		E67C3B4CB213853929C12CAB /* Pods_MoteNoteApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoteNoteApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFE314105A6D3B9D640085E /* Pods-MoteNoteApp-MoteNoteAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoteNoteApp-MoteNoteAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MoteNoteApp-MoteNoteAppUITests/Pods-MoteNoteApp-MoteNoteAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FEAD5A411B074785DF48B9 /* Pods_MoteNoteApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F3CE24D668B06CA646E27C /* Pods_MoteNoteAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +192,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78EF55DC82566AF5CEDF6885 /* Pods_MoteNoteApp_MoteNoteAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021ADB6E7DC4F182107331A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E67C3B4CB213853929C12CAB /* Pods_MoteNoteApp.framework */,
+				8911D1D790AE8146A1EB8B34 /* Pods_MoteNoteApp_MoteNoteAppUITests.framework */,
+				27293E4EFD3D355B1A2DBBF0 /* Pods_MoteNoteAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D5C8A26BD0512AD47B884FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD8C7E839DB7AA5DC5ABBBDF /* Pods-MoteNoteApp.debug.xcconfig */,
+				E2074AA4C1296BCE02B5527B /* Pods-MoteNoteApp.release.xcconfig */,
+				78877260D7F2F8572339DE92 /* Pods-MoteNoteApp-MoteNoteAppUITests.debug.xcconfig */,
+				EAFE314105A6D3B9D640085E /* Pods-MoteNoteApp-MoteNoteAppUITests.release.xcconfig */,
+				50A0C3A51F2ED6EC12E7E22D /* Pods-MoteNoteAppTests.debug.xcconfig */,
+				59608B9CC147A686E647555D /* Pods-MoteNoteAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		793DB17929874C8E0005A4D5 /* SuggestedActivities */ = {
+			isa = PBXGroup;
+			children = (
+				793DB17A29874CAF0005A4D5 /* SuggestedActivityView.swift */,
+			);
+			path = SuggestedActivities;
+			sourceTree = "<group>";
+		};
+		7952882D2975E089005AC2AD /* VARK */ = {
+			isa = PBXGroup;
+			children = (
+				7952882E2975E0A6005AC2AD /* VarkAssessment.swift */,
+				7952883F2977B957005AC2AD /* VarkResultsView.swift */,
+			);
+			path = VARK;
+			sourceTree = "<group>";
+		};
+		795288342975EA78005AC2AD /* Vark */ = {
+			isa = PBXGroup;
+			children = (
+				795288352975EAA7005AC2AD /* VARKAssessment.json */,
+			);
+			path = Vark;
+			sourceTree = "<group>";
+		};
+		795288392975FD18005AC2AD /* PersonalRating */ = {
+			isa = PBXGroup;
+			children = (
+				7952883A2975FD29005AC2AD /* PersonalRating.swift */,
+			);
+			path = PersonalRating;
+			sourceTree = "<group>";
+		};
+		7952883C29778368005AC2AD /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				7952883D29778375005AC2AD /* ToggleTheme.swift */,
+				7974048D299C38E90086C051 /* CustomPickers.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
 		796B0008296CF7EF0097E63E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,8 +277,12 @@
 		796B0009296CF7EF0097E63E /* MoteNoteApp */ = {
 			isa = PBXGroup;
 			children = (
+				79A488002985F88400D84414 /* Info.plist */,
+				79BEE11C296D2E3700CB7C5B /* Views */,
+				79BEE117296D2E1C00CB7C5B /* Models */,
+				79BEE116296D2E1100CB7C5B /* Resources */,
+				79BEE113296D2E0400CB7C5B /* ViewModels */,
 				796B000A296CF7EF0097E63E /* MoteNoteAppApp.swift */,
-				796B000C296CF7EF0097E63E /* ContentView.swift */,
 				796B000E296CF7F20097E63E /* Assets.xcassets */,
 				796B0010296CF7F20097E63E /* Preview Content */,
 			);
@@ -120,11 +317,272 @@
 		796BFFFE296CF7EF0097E63E = {
 			isa = PBXGroup;
 			children = (
+				79BEE111296D249800CB7C5B /* GoogleService-Info.plist */,
 				796B0009296CF7EF0097E63E /* MoteNoteApp */,
 				796B001A296CF7F20097E63E /* MoteNoteAppTests */,
 				796B0024296CF7F20097E63E /* MoteNoteAppUITests */,
 				796B0008296CF7EF0097E63E /* Products */,
+				0D5C8A26BD0512AD47B884FF /* Pods */,
+				021ADB6E7DC4F182107331A8 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		7973B0FE299DE0290007CD64 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7973B0FF299DE03C0007CD64 /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7973B101299DEDD40007CD64 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				79AB02CD298CD71800AFD0EF /* AddTaskView.swift */,
+				7973B102299DEDE90007CD64 /* AddTaskTypeView.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		79AB02B8298B77CA00AFD0EF /* WhatSetsYouOff */ = {
+			isa = PBXGroup;
+			children = (
+				79AB02B9298B77E400AFD0EF /* WhatSetsYouOff.swift */,
+			);
+			path = WhatSetsYouOff;
+			sourceTree = "<group>";
+		};
+		79AB02BB298B781400AFD0EF /* ThePowerOfIntention */ = {
+			isa = PBXGroup;
+			children = (
+				79AB02BC298B782200AFD0EF /* ThePowerOfIntention.swift */,
+			);
+			path = ThePowerOfIntention;
+			sourceTree = "<group>";
+		};
+		79AB02BE298B784600AFD0EF /* ThingsThatBrightenYourDay */ = {
+			isa = PBXGroup;
+			children = (
+				79AB02BF298B786000AFD0EF /* ThingsThatBrightenYourDay.swift */,
+			);
+			path = ThingsThatBrightenYourDay;
+			sourceTree = "<group>";
+		};
+		79AB02C1298B789900AFD0EF /* PassionIsAGift */ = {
+			isa = PBXGroup;
+			children = (
+				79AB02C2298B78A900AFD0EF /* PassionIsAGift.swift */,
+			);
+			path = PassionIsAGift;
+			sourceTree = "<group>";
+		};
+		79AB02C4298B790000AFD0EF /* YourBucketList */ = {
+			isa = PBXGroup;
+			children = (
+				79AB02C5298B790A00AFD0EF /* YourBucketList.swift */,
+			);
+			path = YourBucketList;
+			sourceTree = "<group>";
+		};
+		79AB02CF298CD75600AFD0EF /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				79AB02C9298CD4FD00AFD0EF /* TaskModel.swift */,
+				79AB02D0298CD76D00AFD0EF /* CalendarCoordinator.swift */,
+				7974048B299C238E0086C051 /* TaskTypeModel.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		79AED72C29948F6B001B5AD0 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				79AED72D29948F7A001B5AD0 /* LockedStarView.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		79AED73529998C77001B5AD0 /* FunFacts */ = {
+			isa = PBXGroup;
+			children = (
+				79AED73629998C8B001B5AD0 /* FunFactFetcher.swift */,
+			);
+			path = FunFacts;
+			sourceTree = "<group>";
+		};
+		79AED73A2999A001001B5AD0 /* Affirmations */ = {
+			isa = PBXGroup;
+			children = (
+				79AED73B2999A079001B5AD0 /* AffirmationsFetcher.swift */,
+			);
+			path = Affirmations;
+			sourceTree = "<group>";
+		};
+		79B4450829AF08610098D239 /* WeeklyCalendarViews */ = {
+			isa = PBXGroup;
+			children = (
+				79B4450929AF08900098D239 /* WeeklySnapshot.swift */,
+			);
+			path = WeeklyCalendarViews;
+			sourceTree = "<group>";
+		};
+		79B8419B2982FC2200E87723 /* DailyCheckIn */ = {
+			isa = PBXGroup;
+			children = (
+				79B8419C2982FC4100E87723 /* DailyCheckIn.swift */,
+				793DB17729873BBF0005A4D5 /* StarRatings.swift */,
+				79AED73829998D0E001B5AD0 /* FunFactView.swift */,
+				79AED73D2999A120001B5AD0 /* AffirmationsView.swift */,
+			);
+			path = DailyCheckIn;
+			sourceTree = "<group>";
+		};
+		79B8419E2983229800E87723 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				79B4450829AF08610098D239 /* WeeklyCalendarViews */,
+				7973B101299DEDD40007CD64 /* Tasks */,
+				79E7ED872993693B002E7CA7 /* DailyCalendarView */,
+				79B8419F298322A600E87723 /* CalendarMainView.swift */,
+				79AB02C7298CCDFC00AFD0EF /* CalendarWrapper.swift */,
+				79AB02D4298CD9A400AFD0EF /* CalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		79B87930297241FE00C19602 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				79B879312972426600C19602 /* EditProfile.swift */,
+				79B879332972428800C19602 /* EditProfileSelectHome.swift */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		79BEE113296D2E0400CB7C5B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				79BEE114296D2E0400CB7C5B /* ProfileViewModel.swift */,
+				795288322975E2C6005AC2AD /* VarkViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		79BEE116296D2E1100CB7C5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7973B0FE299DE0290007CD64 /* Extensions */,
+				7952883C29778368005AC2AD /* Theme */,
+				795288342975EA78005AC2AD /* Vark */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		79BEE117296D2E1C00CB7C5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79AED73A2999A001001B5AD0 /* Affirmations */,
+				79AED73529998C77001B5AD0 /* FunFacts */,
+				79AB02CF298CD75600AFD0EF /* Calendar */,
+				79BEE118296D2E1C00CB7C5B /* Profile.swift */,
+				79BEE119296D2E1C00CB7C5B /* ViewRouter.swift */,
+				795288302975E112005AC2AD /* VarkQuestion.swift */,
+				79C74C2D2989C90800C1B6FD /* DailyCheckInModel.swift */,
+				79AB02B6298B6AE600AFD0EF /* ActivityModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		79BEE11C296D2E3700CB7C5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79AED72C29948F6B001B5AD0 /* Misc */,
+				79B8419E2983229800E87723 /* Calendar */,
+				79BEE11D296D2E3700CB7C5B /* HomePage */,
+				79BEE120296D2E3700CB7C5B /* Profile */,
+				79BEE123296D2E3700CB7C5B /* Activities */,
+				79BEE125296D2E3700CB7C5B /* MainView */,
+				79BEE127296D2E3700CB7C5B /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79BEE11D296D2E3700CB7C5B /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				79BEE11E296D2E3700CB7C5B /* HomePage.swift */,
+				79C056742982114000924DBB /* HomeAccountSetup.swift */,
+				79C056762982456C00924DBB /* DailyCheckInHome.swift */,
+				79C05678298245B100924DBB /* TodaysTasksHome.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		79BEE120296D2E3700CB7C5B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				79B87930297241FE00C19602 /* EditProfile */,
+				79BEE121296D2E3700CB7C5B /* ProfileSummary.swift */,
+				79BEE122296D2E3700CB7C5B /* ProfileHome.swift */,
+				79452D67297B6E6A00D22DE6 /* ProfileVarks.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		79BEE123296D2E3700CB7C5B /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				79AB02C4298B790000AFD0EF /* YourBucketList */,
+				79AB02C1298B789900AFD0EF /* PassionIsAGift */,
+				79AB02BE298B784600AFD0EF /* ThingsThatBrightenYourDay */,
+				79AB02BB298B781400AFD0EF /* ThePowerOfIntention */,
+				79AB02B8298B77CA00AFD0EF /* WhatSetsYouOff */,
+				79C74C282989C61100C1B6FD /* PreventingAFlood */,
+				793DB17929874C8E0005A4D5 /* SuggestedActivities */,
+				79B8419B2982FC2200E87723 /* DailyCheckIn */,
+				795288392975FD18005AC2AD /* PersonalRating */,
+				7952882D2975E089005AC2AD /* VARK */,
+				79BEE124296D2E3700CB7C5B /* ActivitiesHome.swift */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		79BEE125296D2E3700CB7C5B /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				79BEE11F296D2E3700CB7C5B /* RootView.swift */,
+				79BEE126296D2E3700CB7C5B /* ContentView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		79BEE127296D2E3700CB7C5B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				79BEE128296D2E3700CB7C5B /* SignInView.swift */,
+				79BEE129296D2E3700CB7C5B /* SignUpView.swift */,
+				79740489299C181B0086C051 /* PreLoadScreen.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		79C74C282989C61100C1B6FD /* PreventingAFlood */ = {
+			isa = PBXGroup;
+			children = (
+				79C74C292989C62700C1B6FD /* PreventingAFlood.swift */,
+			);
+			path = PreventingAFlood;
+			sourceTree = "<group>";
+		};
+		79E7ED872993693B002E7CA7 /* DailyCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				79AB02D2298CD7B900AFD0EF /* TaskList.swift */,
+				79E7ED8829936966002E7CA7 /* DailyCalendarView.swift */,
+				79AED72F299491EE001B5AD0 /* DailyCheckInCalendarView.swift */,
+				79AED7332994B142001B5AD0 /* DailySnapshot.swift */,
+			);
+			path = DailyCalendarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +592,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 796B002B296CF7F20097E63E /* Build configuration list for PBXNativeTarget "MoteNoteApp" */;
 			buildPhases = (
+				76E296112E306ED6E9F0AEA4 /* [CP] Check Pods Manifest.lock */,
 				796B0003296CF7EF0097E63E /* Sources */,
 				796B0004296CF7EF0097E63E /* Frameworks */,
 				796B0005296CF7EF0097E63E /* Resources */,
+				5F04465E0EA28BD9434F8AC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +611,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 796B002E296CF7F20097E63E /* Build configuration list for PBXNativeTarget "MoteNoteAppTests" */;
 			buildPhases = (
+				DE4AC74CF07F62C13E104002 /* [CP] Check Pods Manifest.lock */,
 				796B0013296CF7F20097E63E /* Sources */,
 				796B0014296CF7F20097E63E /* Frameworks */,
 				796B0015296CF7F20097E63E /* Resources */,
@@ -169,9 +630,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 796B0031296CF7F20097E63E /* Build configuration list for PBXNativeTarget "MoteNoteAppUITests" */;
 			buildPhases = (
+				6F5B25810A0C0907B2974BC8 /* [CP] Check Pods Manifest.lock */,
 				796B001D296CF7F20097E63E /* Sources */,
 				796B001E296CF7F20097E63E /* Frameworks */,
 				796B001F296CF7F20097E63E /* Resources */,
+				B3ECA2A160024FC901826313 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +695,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				796B0012296CF7F20097E63E /* Preview Assets.xcassets in Resources */,
+				795288362975EAA7005AC2AD /* VARKAssessment.json in Resources */,
+				79BEE112296D249800CB7C5B /* GoogleService-Info.plist in Resources */,
 				796B000F296CF7F20097E63E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,13 +717,170 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F04465E0EA28BD9434F8AC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoteNoteApp/Pods-MoteNoteApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoteNoteApp/Pods-MoteNoteApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoteNoteApp/Pods-MoteNoteApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F5B25810A0C0907B2974BC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoteNoteApp-MoteNoteAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76E296112E306ED6E9F0AEA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoteNoteApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3ECA2A160024FC901826313 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoteNoteApp-MoteNoteAppUITests/Pods-MoteNoteApp-MoteNoteAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoteNoteApp-MoteNoteAppUITests/Pods-MoteNoteApp-MoteNoteAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoteNoteApp-MoteNoteAppUITests/Pods-MoteNoteApp-MoteNoteAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE4AC74CF07F62C13E104002 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoteNoteAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		796B0003296CF7EF0097E63E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				796B000D296CF7EF0097E63E /* ContentView.swift in Sources */,
+				79C74C2E2989C90800C1B6FD /* DailyCheckInModel.swift in Sources */,
+				793DB17829873BBF0005A4D5 /* StarRatings.swift in Sources */,
+				79AED72E29948F7A001B5AD0 /* LockedStarView.swift in Sources */,
+				7974048A299C181B0086C051 /* PreLoadScreen.swift in Sources */,
+				793DB17B29874CAF0005A4D5 /* SuggestedActivityView.swift in Sources */,
+				79BEE11B296D2E1C00CB7C5B /* ViewRouter.swift in Sources */,
+				795288402977B957005AC2AD /* VarkResultsView.swift in Sources */,
+				79BEE12F296D2E3700CB7C5B /* ContentView.swift in Sources */,
+				79BEE12A296D2E3700CB7C5B /* HomePage.swift in Sources */,
+				79AED73C2999A079001B5AD0 /* AffirmationsFetcher.swift in Sources */,
+				79B841A0298322A700E87723 /* CalendarMainView.swift in Sources */,
+				79AB02D5298CD9A400AFD0EF /* CalendarView.swift in Sources */,
+				79BEE115296D2E0400CB7C5B /* ProfileViewModel.swift in Sources */,
+				79AED73729998C8B001B5AD0 /* FunFactFetcher.swift in Sources */,
+				79BEE11A296D2E1C00CB7C5B /* Profile.swift in Sources */,
+				79AB02B7298B6AE600AFD0EF /* ActivityModel.swift in Sources */,
+				79AED73929998D0E001B5AD0 /* FunFactView.swift in Sources */,
+				79BEE12B296D2E3700CB7C5B /* RootView.swift in Sources */,
+				79AB02CE298CD71800AFD0EF /* AddTaskView.swift in Sources */,
+				79C056772982456D00924DBB /* DailyCheckInHome.swift in Sources */,
+				79C74C2A2989C62700C1B6FD /* PreventingAFlood.swift in Sources */,
+				7973B103299DEDE90007CD64 /* AddTaskTypeView.swift in Sources */,
+				79BEE130296D2E3700CB7C5B /* SignInView.swift in Sources */,
+				79BEE131296D2E3700CB7C5B /* SignUpView.swift in Sources */,
+				79B4450A29AF08900098D239 /* WeeklySnapshot.swift in Sources */,
+				7974048E299C38E90086C051 /* CustomPickers.swift in Sources */,
+				7952883B2975FD29005AC2AD /* PersonalRating.swift in Sources */,
+				79AED73E2999A120001B5AD0 /* AffirmationsView.swift in Sources */,
+				79C05679298245B100924DBB /* TodaysTasksHome.swift in Sources */,
+				79BEE12C296D2E3700CB7C5B /* ProfileSummary.swift in Sources */,
+				79AB02C3298B78A900AFD0EF /* PassionIsAGift.swift in Sources */,
+				7974048C299C238E0086C051 /* TaskTypeModel.swift in Sources */,
+				79E7ED8929936966002E7CA7 /* DailyCalendarView.swift in Sources */,
+				79AB02C6298B790A00AFD0EF /* YourBucketList.swift in Sources */,
+				7952883E29778375005AC2AD /* ToggleTheme.swift in Sources */,
+				79AB02C8298CCDFC00AFD0EF /* CalendarWrapper.swift in Sources */,
+				79AB02C0298B786000AFD0EF /* ThingsThatBrightenYourDay.swift in Sources */,
+				79AB02CA298CD4FD00AFD0EF /* TaskModel.swift in Sources */,
+				795288312975E112005AC2AD /* VarkQuestion.swift in Sources */,
+				79452D68297B6E6A00D22DE6 /* ProfileVarks.swift in Sources */,
+				79AED730299491EE001B5AD0 /* DailyCheckInCalendarView.swift in Sources */,
+				7973B100299DE03C0007CD64 /* ColorExtension.swift in Sources */,
+				79AB02BD298B782200AFD0EF /* ThePowerOfIntention.swift in Sources */,
+				79BEE12E296D2E3700CB7C5B /* ActivitiesHome.swift in Sources */,
+				79B879322972426600C19602 /* EditProfile.swift in Sources */,
+				7952882F2975E0A6005AC2AD /* VarkAssessment.swift in Sources */,
+				79AB02D3298CD7B900AFD0EF /* TaskList.swift in Sources */,
+				79AED7342994B142001B5AD0 /* DailySnapshot.swift in Sources */,
+				79BEE12D296D2E3700CB7C5B /* ProfileHome.swift in Sources */,
+				79AB02BA298B77E400AFD0EF /* WhatSetsYouOff.swift in Sources */,
+				79AB02D1298CD76D00AFD0EF /* CalendarCoordinator.swift in Sources */,
+				79C056752982114000924DBB /* HomeAccountSetup.swift in Sources */,
 				796B000B296CF7EF0097E63E /* MoteNoteAppApp.swift in Sources */,
+				79B8419D2982FC4100E87723 /* DailyCheckIn.swift in Sources */,
+				795288332975E2C6005AC2AD /* VarkViewModel.swift in Sources */,
+				79B879342972428800C19602 /* EditProfileSelectHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +967,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +1021,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -411,15 +1033,17 @@
 		};
 		796B002C296CF7F20097E63E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8C7E839DB7AA5DC5ABBBDF /* Pods-MoteNoteApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MoteNoteApp/Preview Content\"";
+				DEVELOPMENT_TEAM = NUPMRU97TA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MoteNoteApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -439,15 +1063,17 @@
 		};
 		796B002D296CF7F20097E63E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2074AA4C1296BCE02B5527B /* Pods-MoteNoteApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MoteNoteApp/Preview Content\"";
+				DEVELOPMENT_TEAM = NUPMRU97TA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MoteNoteApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -467,6 +1093,7 @@
 		};
 		796B002F296CF7F20097E63E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A0C3A51F2ED6EC12E7E22D /* Pods-MoteNoteAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +1113,7 @@
 		};
 		796B0030296CF7F20097E63E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59608B9CC147A686E647555D /* Pods-MoteNoteAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +1133,7 @@
 		};
 		796B0032296CF7F20097E63E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78877260D7F2F8572339DE92 /* Pods-MoteNoteApp-MoteNoteAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +1151,7 @@
 		};
 		796B0033296CF7F20097E63E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFE314105A6D3B9D640085E /* Pods-MoteNoteApp-MoteNoteAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

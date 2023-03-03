@@ -1,0 +1,72 @@
+[
+  {
+    "question": "How do you prefer to share a story with someone?",
+    "a": "Picture the story in your mind and describe what you saw, who was there, and what happened",
+    "b": "Describe what you heard, what others said, and emphasize the story’s tone while you share",
+    "c": "Describe what you did, how it felt, or how it affected you or others",
+    "d": "Act it out or use hand gestures and jokes to describe or explain the story"
+  },
+  {
+    "question": "How do you remember things like your username, passwords, or where your phone is?",
+    "a": "Write it down, keep a list, and store it somewhere for an easy visual reminder",
+    "b": "Say it aloud, repeat it over and over, or trust your ears to remember it",
+    "c": "Personalize it and make connections. Look for a pattern like a number relationship or a personal association",
+    "d": "Write it down, use the same one every time, or put it in the same place every time"
+  },
+  {
+    "question": "What's the best way for you to remember someone's name when you first meet them?",
+    "a": "Write it down, visualize it to remember it",
+    "b": "Say it aloud, repeat it over and over, and practice using it right away",
+    "c": "Make a personal connection or association",
+    "d": "Shake hands, say the name aloud, and look the person in the eye to help you remember"
+  },
+  {
+    "question": "What do you choose to do with your free time?",
+    "a": "Read a book, watch a movie or show, look at magazines, or scan the internet or an app",
+    "b": "Listen to music or a podcast, enjoy the quiet, or listen to nature",
+    "c": "Hang with friends, be around people, and participate in something with others",
+    "d": "Go on a walk or hike, play a sport, be active, go somewhere, go do something"
+  },
+  {
+    "question": "What do you remember best about your last birthday party or holiday?",
+    "a": "The faces of the people who were there",
+    "b": "What everyone talked about and laughed about",
+    "c": "How you felt and how you interacted with others",
+    "d": "What you did and what you received as presents"
+  },
+  {
+    "question": "How do you usually choose which movie to watch?",
+    "a": "Look at the pictures, watch a trailer, and read reviews",
+    "b": "Listen to recommendations from others",
+    "c": "Pick a movie that someone will watch with you",
+    "d": "Just start watching the movie or head to the theater to see what's playing"
+  },
+  {
+    "question": "Which class do you like best?",
+    "a": "Art",
+    "b": "Music",
+    "c": "Any class my friends are in",
+    "d": "Gym"
+  },
+  {
+    "question": "How do you prefer to learn something new?",
+    "a": "Look at pictures, read instructions, or watch a video",
+    "b": "Listen to a podcast or lecture",
+    "c": "Learn with others, talk about it, and share your opinions",
+    "d": "Just try it out! Learn from your mistakes."
+  },
+  {
+    "question": "When you are preparing for a vacation, which do you do?",
+    "a": "Look at pictures, read reviews, and check out a map of the place",
+    "b": "Talk to someone else who's been there",
+    "c": "Get together with family or friends to make a plan",
+    "d": "Do an online search and start packing"
+  },
+  {
+    "question": "What motivates you to do well in a class?",
+    "a": "When there are visuals, graphics, and videos to watch",
+    "b": "When there is a lot of class discussion",
+    "c": "When I like the teacher or have friends in the class",
+    "d": "When I can move around or be hands-on"
+  }
+]
