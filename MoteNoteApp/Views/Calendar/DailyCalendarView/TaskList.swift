@@ -9,8 +9,8 @@ import SwiftUI
 
 struct TaskList: View {
     
-    @Binding var selectedDate: Date?
-    let tasks: [Task]
+    @EnvironmentObject var taskStore: TaskStore
+    var date: Date
     
     var body: some View {
         VStack{
@@ -28,7 +28,10 @@ struct TaskList: View {
 //                }
             }
             VStack {
-                ForEach(tasks) { task in
+                
+                let todaysTasks = taskStore.tasks.filter { Calendar.current.isDate($0.date, inSameDayAs: date) }
+                
+                ForEach(todaysTasks.sorted(by: { $0.timeRange.start.compare($1.timeRange.start) == .orderedAscending })) { task in
                     ZStack(alignment: .topLeading) {
                         Rectangle()
                             .fill(task.taskType.color)
@@ -66,15 +69,15 @@ struct TaskList: View {
     }
 }
 
-struct TaskList_Previews: PreviewProvider {
-    
-    static var previews: some View {
-        TaskList(
-            selectedDate: .constant(Date()), tasks: [
-                Task(date: Date(), timeRange: (start: Date().addingTimeInterval(60 * 60), end: Date().addingTimeInterval(60 * 120)), name: "Math Class", description: "Attend Ms. Wagner's math class at rom 102", travelTime: 600, checklist: ["Backpack", "Calculator"], taskType: TaskType(name: "School", color: Color("MattePurple")))
-        ])
-    }
-}
+//struct TaskList_Previews: PreviewProvider {
+//
+//    static var previews: some View {
+//        TaskList(
+//            selectedDate: .constant(Date()), tasks: [
+//                Task(date: Date(), timeRange: (start: Date().addingTimeInterval(60 * 60), end: Date().addingTimeInterval(60 * 120)), name: "Math Class", description: "Attend Ms. Wagner's math class at rom 102", travelTime: 600, checklist: ["Backpack", "Calculator"], taskType: TaskType(name: "School", color: Color("MattePurple")))
+//        ])
+//    }
+//}
 
 
 

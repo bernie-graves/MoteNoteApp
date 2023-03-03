@@ -54,20 +54,8 @@ struct TodaysTasksHome: View {
                         .frame(width: 325)
                         .scaleEffect(0.95)
                         .environmentObject(profileViewModel)
-//                    VStack {
-//                        ForEach(getDatesForCurrentWeek(), id:\.self) { date in
-//                            DailySnapshot(tasks: weeksTasks[date] ?? [])
-//                                .scaleEffect(0.8)
-//                                .onTapGesture {
-//                                    self.selectedDate = date
-//                                    self.showingDailyView.toggle()
-//                                }
-//                                .sheet(isPresented: $showingDailyView) {
-//                                    DailyCalendarView(selectedDate: $selectedDate, coordinator: CalendarCoordinator(selectedDate: $selectedDate, profileViewModel: profileViewModel))
-//                                }
-//                        }
                 } else {
-                    DailySnapshot(tasks: todaysTasks)
+                    DailySnapshot(date: now)
                         .scaleEffect(0.9)
                         .onTapGesture {
                             self.showingDailyView.toggle()
@@ -80,13 +68,13 @@ struct TodaysTasksHome: View {
                 
                 
             }
-            .onAppear{
-                self.todaysTasks = CalendarCoordinator(selectedDate: Binding<Date?>(.constant(Date())), profileViewModel: profileViewModel).getDatesTasks(date: Date())
-                
-                for date in getDatesForCurrentWeek() {
-                    weeksTasks[date] = CalendarCoordinator(selectedDate: Binding<Date?>(.constant(Date())), profileViewModel: profileViewModel).getDatesTasks(date: date)
-                }
-            }
+//            .onAppear{
+//                self.todaysTasks = CalendarCoordinator(selectedDate: Binding<Date?>(.constant(Date())), profileViewModel: profileViewModel).getDatesTasks(date: Date())
+//                
+//                for date in getDatesForCurrentWeek() {
+//                    weeksTasks[date] = CalendarCoordinator(selectedDate: Binding<Date?>(.constant(Date())), profileViewModel: profileViewModel).getDatesTasks(date: date)
+//                }
+//            }
         }
     }
     

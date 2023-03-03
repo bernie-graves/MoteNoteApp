@@ -12,6 +12,9 @@ struct DailyCalendarView: View {
     @Binding var selectedDate: Date?
     let coordinator: CalendarCoordinator
     
+    @EnvironmentObject var taskStore: TaskStore
+    let date = Date()
+    
     var body: some View {
         VStack {
             
@@ -28,9 +31,9 @@ struct DailyCalendarView: View {
                 let datesCheckIns = DailyCheckInModel().getDatesCheckIns(allCheckIns: coordinator.profileViewModel.allDailyCheckIns, date: selectedDate ?? Date())
                 DailyCheckInCalendarView(datesCheckIns: datesCheckIns)
                 
-                let todaysTasks = coordinator.getDatesTasks(date: selectedDate!)
+
                 
-                DailySnapshot(tasks: todaysTasks)
+                DailySnapshot(date: selectedDate!)
 //                let noonToday = Calendar.current.date(bySettingHour: 12, minute: 0, second: 0, of: Date())!
 //                DailySnapshot(
 //                    tasks: [
@@ -40,7 +43,7 @@ struct DailyCalendarView: View {
 //                    ]
 //                )
 //
-                TaskList(selectedDate: $selectedDate, tasks: todaysTasks)
+                TaskList(date: selectedDate!)
                 Spacer()
             }
 

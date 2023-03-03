@@ -24,17 +24,12 @@ struct HomePage: View {
                     // finish account setup if needed
                     if (profileViewModel.showAccountSetup){
                         HomeAccountSetup()
-                            .environmentObject(viewRouter)
-                            .environmentObject(profileViewModel)
-                            .environmentObject(varkViewModel)
                             .padding()
                     }
                         
                     DailyCheckInHome()
-                        .environmentObject(profileViewModel)
 
                     TodaysTasksHome()
-                        .environmentObject(profileViewModel)
 
                     
                     ZStack {
@@ -42,19 +37,10 @@ struct HomePage: View {
                             .fill(.blue)
                             .frame(width: 350, height: 150)
                         
-                        Text("Suggested Activities")
+                        Text("Suggested Activities -- Next Step")
                     }
                 }
-//                .onAppear {
-//                    profileViewModel.sync() {
-//                        
-//                    }
-//
-//                    
-//                }
-
             }
-            
         }
 }
 

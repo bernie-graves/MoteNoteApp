@@ -37,7 +37,7 @@ struct WeeklySnapshot: View {
                         .padding([.leading], 10)
                     
                     
-                    DailySnapshot(tasks: weeksTasks[date] ?? [])
+                    DailySnapshot(date: date)
                         .scaleEffect(0.85)
                         .frame(height: 95)
                         .padding(.leading, -15)
@@ -62,11 +62,7 @@ struct WeeklySnapshot: View {
         }
         .background(.white)
         .cornerRadius(5)
-        .onAppear{
-            for date in getDatesForCurrentWeek() {
-                weeksTasks[date] = CalendarCoordinator(selectedDate: Binding<Date?>(.constant(Date())), profileViewModel: profileViewModel).getDatesTasks(date: date)
-            }
-        }
+
     }
     
     

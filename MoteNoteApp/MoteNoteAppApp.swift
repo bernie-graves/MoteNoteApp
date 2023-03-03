@@ -23,13 +23,18 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct MoteNoteAppApp: App {
   // register app delegate for Firebase setup
   @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+
     
-    var viewRouter = ViewRouter()
+    @StateObject var taskStore = TaskStore()
+    @StateObject var viewRouter =  ViewRouter()
+    @StateObject var profileViewModel = ProfileViewModel()
+    @StateObject var varkViewModel = VarkViewModel()
+
 
 
   var body: some Scene {
     WindowGroup {
-      NavigationView {
+      NavigationStack {
          let _ = Auth.auth().addStateDidChangeListener { (auth, user) in
               if user != nil {
                   // User is signed in. Show the main content view.
@@ -42,10 +47,14 @@ struct MoteNoteAppApp: App {
               }
           }
           RootView()
-                .environmentObject(viewRouter)
-                .environmentObject(ProfileViewModel())
-                .environmentObject(VarkViewModel())
+//                .environmentObject(viewRouter)
+//                .environmentObject(ProfileViewModel())
+//                .environmentObject(VarkViewModel())
       }
+      .environmentObject(taskStore)
+      .environmentObject(viewRouter)
+      .environmentObject(varkViewModel)
+      .environmentObject(profileViewModel)
     
     }
   }

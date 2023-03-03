@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AddTaskView: View {
     @ObservedObject var taskTypeStore: TaskTypeStore
+    @EnvironmentObject var taskStore: TaskStore
     
     @Binding var name : String
     @Binding var description : String
@@ -101,10 +102,11 @@ struct AddTaskView: View {
 
         Button(action: {
             
-            var startTime_correctDate = date2WithTimeFromDate1(date2: date, date1: startTime)
-            var endTime_correctDate = date2WithTimeFromDate1(date2: date, date1: endTime)
+            let startTime_correctDate = date2WithTimeFromDate1(date2: date, date1: startTime)
+            let endTime_correctDate = date2WithTimeFromDate1(date2: date, date1: endTime)
             
-            self.coordinator.addTask(date: date, timeRange: (start: startTime_correctDate, end: endTime_correctDate), name: name, description: description, travelTime: travelTime, checklist: checklist, taskType: selectedTaskType)
+            taskStore.addTask(date: date, timeRange: (start: startTime_correctDate, end: endTime_correctDate), name: name, description: description, travelTime: travelTime, checklist: checklist, taskType: selectedTaskType)
+            
             showAddTask.toggle()
             
             // reset form
