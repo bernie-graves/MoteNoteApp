@@ -1,4 +1,4 @@
 # MoteNoteApp
 Here are some views from the app
 
-<img src='imgs/login-page.png' width='100'>
+<img src='imgs/login-page.png' width='250'>
