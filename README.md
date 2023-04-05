@@ -9,7 +9,7 @@ Here are some views from the app
 <img src='imgs/home-page.png' width='250'>
 
 ### Daily View
-<img src='imgs/daily-view.png' width='250'>
+<img src='imgs/daily-view2.png' width='250'>
 
 ### Weekly View
 <img src='imgs/weekly-view.png' width='250'>
