@@ -93,7 +93,7 @@ class TaskStore: ObservableObject {
     
     private func loadTasksFromFirestore(completion: @escaping () -> Void) {
         let db = Firestore.firestore()
-        let tasksCollection = db.collection("userData").document(auth.currentUser!.uid).collection("tasks")
+        let tasksCollection = db.collection("userData").document(auth.currentUser?.uid ?? "SnH1Fn0u4bfUhQPESM6K653eeTs1").collection("tasks")
         
         tasksCollection.getDocuments() { snapshot, error in
             
